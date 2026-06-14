@@ -41,6 +41,55 @@ graph TD
     end
 ```
 
+## Business Problem
+
+Field-based legal and institutional operations often depend on manual coordination, phone calls, paper forms and fragmented evidence collection.
+
+This creates several operational risks:
+
+* weak traceability of field missions;
+* inconsistent identity verification;
+* difficulty proving location and execution time;
+* delayed synchronization between field agents and back-office teams;
+* lack of reliable mobile access to institutional data;
+* limited visibility for administrators supervising distributed operations.
+
+NOUR Mobile addresses this by providing a secure Flutter-based field operations app connected to the broader WITI ecosystem, combining identity capture, GPS mission tracking, offline-first workflows, Supabase synchronization and mobile access to institutional records.
+
+---
+
+## My Role
+
+I designed and developed NOUR Mobile as a field operations application for legal and institutional users.
+
+My work included:
+
+* building the Flutter/Dart mobile application;
+* structuring the app with a feature-driven architecture;
+* integrating Supabase authentication, database and storage services;
+* implementing offline-first mission workflows;
+* integrating GPS-based mission tracking;
+* implementing ML Kit-based CIN/document scanning;
+* designing secure mobile access connected to the Governance Platform;
+* preparing the app as the field/mobile layer of the WITI ecosystem.
+
+---
+
+## Security & Field Integrity Model
+
+NOUR Mobile is designed for field environments where identity, location and mission traceability are important.
+
+The application includes:
+
+* authenticated mobile access;
+* Supabase-backed user and mission synchronization;
+* document/CIN capture workflows;
+* GPS-based field mission tracking;
+* offline-first data handling;
+* controlled synchronization when connectivity is restored;
+* separation between field mobile workflows and the institutional back-office;
+* portfolio-safe public repository with production secrets and private operational data excluded.
+
 ---
 
 ## 📱 App Screenshots
@@ -79,7 +128,7 @@ graph TD
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/sanadidari/nour.git
+   git clone https://github.com/SamirChatwiti/nour-mobile.git
    cd nour
    ```
 2. Install dependencies:

@@ -130,7 +130,7 @@ The application includes:
 1. Clone the repository:
    ```bash
    git clone https://github.com/SamirChatwiti/nour-mobile.git
-   cd nour
+   cd nour-mobile
    ```
 2. Install dependencies:
    ```bash
@@ -149,8 +149,8 @@ The application includes:
 
 ## 🧪 Testing & CI/CD Status
 - **Automated Testing**: Unit tests for domain logic located in `test/`.
-- **CI/CD Pipeline**: Configured via **GitHub Actions** for automated static analysis (Lints) and test verification.
-
+- **CI/CD Configuration**: GitHub Actions workflows for automated static analysis and test verification are included but disabled in the public portfolio release.
+    
 ---
 
 ## 📜 License

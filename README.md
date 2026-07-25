@@ -26,8 +26,8 @@ NOUR is built with a Feature-Driven Architecture (FDA) and Clean Architecture pr
 ---
 
 ## 🔒 Institutional Security & Integrity
-- **Field Authentication**: Deep integration with **WITI Governance** for authenticated mission assignment.
-- **Evidence Verification**: Real-time integration with **WITI Certify (QRPRUF)** protocols for cryptographic proof of presence.
+- Field Authentication: Secure integration with the institutional governance platform for authenticated mission assignment.
+- Evidence Verification: Real-time integration with QRPRUF protocols for cryptographic proof of presence.
 
 ### 🏗️ Architectural Overview
 ```mermaid
@@ -55,7 +55,7 @@ This creates several operational risks:
 * lack of reliable mobile access to institutional data;
 * limited visibility for administrators supervising distributed operations.
 
-NOUR Mobile addresses this by providing a secure Flutter-based field operations app connected to the broader WITI ecosystem, combining identity capture, GPS mission tracking, offline-first workflows, Supabase synchronization and mobile access to institutional records.
+NOUR Mobile addresses this by providing a secure Flutter-based field operations app connected to the broader institutional digital ecosystem, combining identity capture, GPS mission tracking, offline-first workflows, Supabase synchronization and mobile access to institutional records.
 
 ---
 
@@ -72,7 +72,7 @@ My work included:
 * integrating GPS-based mission tracking;
 * implementing ML Kit-based CIN/document scanning;
 * designing secure mobile access connected to the Governance Platform;
-* preparing the app as the field/mobile layer of the WITI ecosystem.
+* preparing the app as the field and mobile layer of the institutional digital ecosystem.
 
 ---
 
@@ -154,7 +154,7 @@ The application includes:
 ---
 
 ## 📜 License
-Part of the **WITI Ecosystem**. License: **MIT License**.
+NOUR Mobile is released under the MIT License.
 
 ---
 *Developed by @sanadidari - Senior Full-Stack Engineer | Founder of Sanadidari SARL*

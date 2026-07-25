@@ -1,11 +1,12 @@
-# ⚖️ WITI Field (NOUR) - Digital Infrastructure for Institutional Bailiffs
-🔗 [Live Case Study](https://sanadidari.com/witi/nour) | [WITI Ecosystem](https://sanadidari.com/witi)
+# NOUR — Secure Field Operations Platform for Judicial Officers
 
-**WITI Field** (codename: **NOUR**) is the specialized professional mobile ecosystem developed for the **Regional Council of Bailiffs** (Court of Appeal of Tetouan, Morocco). 
+NOUR is a Flutter-based mobile platform designed to support secure field operations for the Regional Council of Judicial Officers within the Court of Appeal of Tetouan, Morocco.
 
-Currently in live field-testing, it bridges the gap between official judicial missions and modern high-trust digital documentation.
+The application supports mission assignment and tracking, GPS-based proof of presence, document and identity scanning, offline-first data capture and secure synchronization with the institutional backend.
 
----
+NOUR is designed for field conditions where connectivity may be limited and operational traceability is essential.
+
+**Status:** Currently undergoing institutional field testing.
 
 ## 🏗️ Engineering Architecture & State Management
 

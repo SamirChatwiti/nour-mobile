@@ -59,7 +59,7 @@ NOUR Mobile addresses this by providing a secure Flutter-based field operations 
 
 ---
 
-## My Role
+## My Role 
 
 I designed and developed NOUR Mobile as a field operations application for legal and institutional users.
 

@@ -14,7 +14,7 @@ NOUR is built with a Feature-Driven Architecture (FDA) and Clean Architecture pr
 
 - **State Management**: **Riverpod** with **Code Generation** (`riverpod_generator`) for a precise, typed, and reactive state.
 - **Dependency Injection**: Modular provider-based DI, enabling seamless mocking and unit testing of business logic.
-- **Storage Strategy**: Local-first caching with **SQLite/Isar** for offline field durability, synced with **Supabase Real-time** via **Row-Level Security (RLS)**.
+- **Storage Strategy**: Local-first caching with **SQLite/Isar** for offline field durability, synchronized with **Supabase Realtime** and protected through **Row-Level Security (RLS)**.
 - **Hardware Integration**: Custom camera flows, GPS anti-spoofing, and **Google ML Kit Document Scanner** for high-integrity capture.
 
 ### 📁 Project Structure (lib/)
@@ -70,8 +70,8 @@ My work included:
 * integrating Supabase authentication, database and storage services;
 * implementing offline-first mission workflows;
 * integrating GPS-based mission tracking;
-* implementing ML Kit-based CIN/document scanning;
-* designing secure mobile access connected to the Governance Platform;
+* implementing ML Kit-based national identity card (CIN) and document scanning;
+* designing secure mobile access connected to the institutional governance platform;
 * preparing the app as the field and mobile layer of the institutional digital ecosystem.
 
 ---

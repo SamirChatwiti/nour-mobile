@@ -10,7 +10,7 @@ NOUR is designed for field conditions where connectivity may be limited and oper
 
 ## 🏗️ Engineering Architecture & State Management
 
-**WITI Field** is built with a **Feature-Driven Architecture** (FDA) and **Clean Architecture** principles, prioritizing high reliability and auditable code.
+NOUR is built with a Feature-Driven Architecture (FDA) and Clean Architecture principles, prioritizing high reliability and auditable code.
 
 - **State Management**: **Riverpod** with **Code Generation** (`riverpod_generator`) for a precise, typed, and reactive state.
 - **Dependency Injection**: Modular provider-based DI, enabling seamless mocking and unit testing of business logic.
